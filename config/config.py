@@ -1,6 +1,6 @@
 import json
 
-from config_model import ValuteRange
+from config.config_model import ValuteRange
 
 
 async def load_data() -> list[ValuteRange]:

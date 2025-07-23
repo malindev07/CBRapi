@@ -3,7 +3,8 @@ import random
 from dataclasses import dataclass
 from xml.etree import ElementTree as et
 
-from config_model import Valute, ValuteRange
+from config.config_model import ValuteRange
+from valute_model import Valute
 
 
 @dataclass

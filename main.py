@@ -6,8 +6,8 @@ from fastapi import FastAPI
 from api.handler import crb_router
 from api.validator import Validator
 from config.config import load_data
+from config.config_model import ValutesConfig
 from service import Service
-from config_model import ValutesConfig
 
 
 @asynccontextmanager
