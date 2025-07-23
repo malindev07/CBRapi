@@ -14,7 +14,7 @@ async def get_day_market(
         if not res:
             raise ValueError
         return Response(
-            content=await request.state.service.get_xml_data(
+            content=await request.state.service.get_successful_xml(
                 date_req=date_req, valutes=request.state.valutes_config.valutes
             ),
             media_type="application/xml",
