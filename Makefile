@@ -21,7 +21,7 @@ endif
 install:
 	   @echo "Создание виртуального окружения"
 	   @$(PYTHON) -m venv $(VENV_NAME)
-	   @echo "Установка зависимостей..."
+	   @echo "Установка зависимостей"
 	   @$(PIP) install --upgrade pip
 	   @$(PIP) install -r requirements.txt
 
