@@ -9,7 +9,10 @@
 git clone https://github.com/malindev07/CBRapi.git
 cd CBRapi
 
-# Установить зависимости и запустить сервис
+# Установка виртуального окружения и зависимостей
+make install
+
+# Запустить сервис
 make run
 ```
 
